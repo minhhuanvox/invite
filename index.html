@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="..\src\graduation.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Thư Mời Lễ Tốt Nghiệp - Minh Huân</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- <img id="hat" src="https://cdn-icons-png.flaticon.com/512/1826/1826474.png" alt="graduation hat"
+        title="Click để bắt đầu"> -->
+    <img id="hat" src="..\src\graduation.png" alt="graduation hat" title="Click để bắt đầu">
+
+    <nav style="display:none" id="mainNav">
+        <span><strong>🎓 Minh Huân</strong></span>
+        <button class="menu-toggle" onclick="toggleMenu()"><i id="menuIcon" class="fa-solid fa-bars"></i></button>
+        <div class="nav-links" id="navLinks">
+            <a href="#announcement">Thông Báo</a>
+            <a href="#time">Thời Gian</a>
+            <a href="#location">Địa Điểm</a>
+            <a href="#contact">Liên Lạc</a>
+        </div>
+    </nav>
+
+
+    <header>
+        <h1>Thư Mời Lễ Tốt Nghiệp</h1>
+        <p>Minh Huân trân trọng kính mời bạn đến tham dự buổi lễ tốt nghiệp của mình!</p>
+    </header>
+
+    <section id="video" style="text-align: center; display: none;">
+        <h2>Video Thư Mời</h2>
+        <video controls autoplay loop muted width="100%"
+            style="max-width: 300px; border-radius: 10px; margin: 2rem auto; display: block;">
+            <source src="src/invitation.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
+    </section>
+
+    <!-- <div style="text-align:center; margin-top: 1rem;">
+        <button onclick="document.getElementById('video').style.display='block'; this.style.display='none';"
+            style="background:#253b91; color:white; border:none; padding:10px 20px; font-size:16px; border-radius:8px; cursor:pointer;">
+            🎥 Xem Video Thư Mời
+        </button>
+    </div> -->
+
+
+    <!-- <video controls width="400px" style="max-width:800px; border-radius: 10px; margin: 2rem auto; display: block;">
+        <source src="src/invitation.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video> -->
+
+    <section id="announcement">
+        <h2>1. Thông Báo</h2>
+        <p>Thật hạnh phúc khi quãng thời gian sinh viên của mình đã được gặp mọi người và có được sự đồng hành giúp đỡ
+            của các bạn cùng với những người đã luôn yêu thương mình.</p>
+        <p>Sắp tới đây buổi lễ tốt nghiệp của mình sẽ được diễn ra, mình hi vọng được gặp lại mọi người và lưu trữ lại
+            các kỉ niệm đẹp</p>
+    </section>
+
+    <section id="time">
+        <h2>2. Thời Gian</h2>
+        <p>⏰ Thời gian diễn ra: <strong>16:30 - 17:30</strong>, Thứ Hai, <strong>ngày 26/07/2025</strong></p>
+        <p>*Các bạn có thể đến sớm nhưng vui lòng chờ ở các của hàng tiện lợi gần nhất để tránh nóng</p>
+    </section>
+
+    <section id="location">
+        <h2>3. Địa Điểm</h2>
+        <p>🏫 Trường Đại học Sài Gòn – 273 An Dương Vương, Quận 5, TP. Hồ Chí Minh</p>
+        <p>*Địa chỉ cũ: 273 An Dương Vương, Phường Chợ Quán, TP. Hồ Chí Minh</p>
+        <p>*Cổng vào xe máy: 06 Nguyễn Trãi, Phường Chợ Quán, TP. Hồ Chí Minh</p>
+        <div class="button-group">
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Trường+Đại+học+Sài+Gòn,+273+An+Dương+Vương,+Quận+5"
+                target="_blank">Chỉ Đường</a>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4868.964738978229!2d106.67968337591746!3d10.759917089387855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1b7c3ed289%3A0xa06651894598e488!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBTw6BpIEfDsm4!5e1!3m2!1svi!2s!4v1752039308019!5m2!1svi!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>4. Thông Tin Liên Lạc</h2>
+        <p>📞 Điện thoại: <a href="tel:+84943925251">+84 943 925 251</a></p>
+        <p>💬 Messenger: <a href="https://www.facebook.com/messages/e2ee/t/7999805733441182" target="_blank">Nhắn tin
+                qua Messenger</a></p>
+    </section>
+
+    <footer>
+        <p style="text-align:center">💙 Cảm ơn bạn đã dành thời gian quý báu để đến tham dự!</p>
+        <p style="text-align:center">Minh Huân – 2025</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
